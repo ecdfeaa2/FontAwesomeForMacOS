@@ -3,8 +3,8 @@ Pod::Spec.new do |s|
   s.name         = "FontAwesomeForMacOS"
   s.version      = "1.0"
   s.summary      = "Use Font Awesome in your macOS Swift projects"
-  s.homepage     = "http://EXAMPLE/FontAwesomeForMacOS"
-  s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
+  s.homepage     = "https://github.com/RemyDCF/FontAwesomeForMacOS"
+  s.license      = { :type => "MIT", :file => "LICENSE" }
 
   s.author             = { "Da Costa Faro Rémy" => "remy@dacostafaro.com" }
   s.social_media_url   = "http://twitter.com/asmartcode"
