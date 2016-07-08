@@ -1,0 +1,303 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		008A68521D2FDD60009AAE13 /* FontAwesomeForMacOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 008A68511D2FDD60009AAE13 /* FontAwesomeForMacOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		008A68691D2FDD7E009AAE13 /* FontAwesomeForMacOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008A68681D2FDD7E009AAE13 /* FontAwesomeForMacOS.swift */; };
+		008A686C1D2FDDB6009AAE13 /* Enum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008A686A1D2FDDB6009AAE13 /* Enum.swift */; };
+		008A686D1D2FDDB6009AAE13 /* FontAwesome.otf in Resources */ = {isa = PBXBuildFile; fileRef = 008A686B1D2FDDB6009AAE13 /* FontAwesome.otf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		008A684E1D2FDD60009AAE13 /* FontAwesomeForMacOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FontAwesomeForMacOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		008A68511D2FDD60009AAE13 /* FontAwesomeForMacOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FontAwesomeForMacOS.h; sourceTree = "<group>"; };
+		008A68531D2FDD60009AAE13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		008A68681D2FDD7E009AAE13 /* FontAwesomeForMacOS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontAwesomeForMacOS.swift; sourceTree = "<group>"; };
+		008A686A1D2FDDB6009AAE13 /* Enum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Enum.swift; sourceTree = "<group>"; };
+		008A686B1D2FDDB6009AAE13 /* FontAwesome.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome.otf; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		008A684A1D2FDD60009AAE13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		008A68441D2FDD60009AAE13 = {
+			isa = PBXGroup;
+			children = (
+				008A68501D2FDD60009AAE13 /* FontAwesomeForMacOS */,
+				008A684F1D2FDD60009AAE13 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		008A684F1D2FDD60009AAE13 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				008A684E1D2FDD60009AAE13 /* FontAwesomeForMacOS.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		008A68501D2FDD60009AAE13 /* FontAwesomeForMacOS */ = {
+			isa = PBXGroup;
+			children = (
+				008A68511D2FDD60009AAE13 /* FontAwesomeForMacOS.h */,
+				008A68681D2FDD7E009AAE13 /* FontAwesomeForMacOS.swift */,
+				008A686A1D2FDDB6009AAE13 /* Enum.swift */,
+				008A686B1D2FDDB6009AAE13 /* FontAwesome.otf */,
+				008A68531D2FDD60009AAE13 /* Info.plist */,
+			);
+			path = FontAwesomeForMacOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		008A684B1D2FDD60009AAE13 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				008A68521D2FDD60009AAE13 /* FontAwesomeForMacOS.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		008A684D1D2FDD60009AAE13 /* FontAwesomeForMacOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 008A68621D2FDD60009AAE13 /* Build configuration list for PBXNativeTarget "FontAwesomeForMacOS" */;
+			buildPhases = (
+				008A68491D2FDD60009AAE13 /* Sources */,
+				008A684A1D2FDD60009AAE13 /* Frameworks */,
+				008A684B1D2FDD60009AAE13 /* Headers */,
+				008A684C1D2FDD60009AAE13 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FontAwesomeForMacOS;
+			productName = FontAwesomeForMacOS;
+			productReference = 008A684E1D2FDD60009AAE13 /* FontAwesomeForMacOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		008A68451D2FDD60009AAE13 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = dacostafaro;
+				TargetAttributes = {
+					008A684D1D2FDD60009AAE13 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 008A68481D2FDD60009AAE13 /* Build configuration list for PBXProject "FontAwesomeForMacOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 008A68441D2FDD60009AAE13;
+			productRefGroup = 008A684F1D2FDD60009AAE13 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				008A684D1D2FDD60009AAE13 /* FontAwesomeForMacOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		008A684C1D2FDD60009AAE13 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				008A686D1D2FDDB6009AAE13 /* FontAwesome.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		008A68491D2FDD60009AAE13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				008A686C1D2FDDB6009AAE13 /* Enum.swift in Sources */,
+				008A68691D2FDD7E009AAE13 /* FontAwesomeForMacOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		008A68601D2FDD60009AAE13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		008A68611D2FDD60009AAE13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		008A68631D2FDD60009AAE13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = FontAwesomeForMacOS/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dacostafaro.FontAwesomeForMacOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		008A68641D2FDD60009AAE13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = FontAwesomeForMacOS/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dacostafaro.FontAwesomeForMacOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		008A68481D2FDD60009AAE13 /* Build configuration list for PBXProject "FontAwesomeForMacOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				008A68601D2FDD60009AAE13 /* Debug */,
+				008A68611D2FDD60009AAE13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		008A68621D2FDD60009AAE13 /* Build configuration list for PBXNativeTarget "FontAwesomeForMacOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				008A68631D2FDD60009AAE13 /* Debug */,
+				008A68641D2FDD60009AAE13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 008A68451D2FDD60009AAE13 /* Project object */;
+}
